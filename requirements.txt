@@ -1,7 +1,9 @@
 ultralytics==8.2.48
+flask==3.0.0
+gunicorn==21.2.0
+requests==2.31.0
+torch==2.3.1  # ✅ Cambiado: Compatible con Render/Python 3.12
+torchvision==0.18.1  # ✅ Cambiado: Match con torch
 opencv-python==4.10.0.84
-matplotlib==3.9.2
-torch==2.4.1
-torchvision==0.19.1
-onnx==1.17.0
-onnxruntime==1.19.2
+matplotlib==3.8.4  # ✅ Cambiado: Versión estable, evita conflicto
+pillow==10.0.1  # Para imgs
