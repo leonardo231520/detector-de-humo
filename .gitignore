@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+*.jpg  # Excepto los en results/ (agrega manual si subes samples)
+node_modules/  # Si agregas mobile más adelante
